@@ -73,3 +73,43 @@ nav{
     width: 100%;
     padding: 30px 0;
 }
+/* Features-list */
+.Features-list{
+    display: flex;
+    margin: 3% 12%;
+    align-items: center;
+}
+.half-width{
+    width: 50%;
+}
+.Features-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.Features-img img{
+    width: 100%;
+}
+.Features-details{
+    padding-left: 50px;
+}
+.Features-details h2{
+    font-size: 45px;
+    padding: 15px 0;
+}
+.a{
+    color: #424242;
+}
+.b{
+    color: #131313;
+}
+.c{
+    color: orange;
+}
+.Features-details p{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 15px;
+}
